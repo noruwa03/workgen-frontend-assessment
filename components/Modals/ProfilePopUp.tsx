@@ -823,7 +823,7 @@ const ProfilePopUp = (props: IPopUp) => {
                 <div className="w-[1px] h-5 bg-gray-300"></div>
                 <span className="text-indigo-600">Show all</span>
               </div>
-              <div className="absolute lg:bottom-6 bottom-8 left-[50%] -translate-x-[50%] sm:w-[4rem] w-[2.5rem] flex flex-row items-center justify-between gap-1">
+              <div className="absolute lg:bottom-6 sm:bottom-8 bottom-3 left-[50%] -translate-x-[50%] sm:w-[4rem] w-[2.5rem] flex flex-row items-center justify-between gap-1">
                 <div className="w-[5px] h-[5px] rounded-full bg-gray-400 cursor-pointer"></div>
                 <div className="w-[5px] h-[5px] rounded-full bg-gray-400 cursor-pointer"></div>
                 <div className="w-[5px] h-[5px] rounded-full bg-gray-400 cursor-pointer"></div>

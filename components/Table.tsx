@@ -48,7 +48,7 @@ const Table = () => {
           name="search"
           value={searchQuery}
           onChange={handleSearch}
-          className="block w-full mt-1 outline-none border-[1px] bg-white border-[#D4DCF1] focus:border-blue-400 px-4 lg:py-[0.4rem] py-3 rounded-md placeholder:text-gray-500 placeholder:font-medium placeholder:text-sm"
+          className="block w-full mt-1 outline-none border-[1px] bg-white border-[#D4DCF1] focus:border-blue-400 px-4 lg:py-[0.4rem] py-[0.5rem] rounded-md placeholder:text-gray-500 placeholder:font-medium sm:placeholder:text-sm placeholder:text-[0.84em]"
           required
           placeholder="Sort, filter and search with Copilot"
         />
